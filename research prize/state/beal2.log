@@ -1,0 +1,1088 @@
+scan 50000 shard=0 base=2
+scan 100000 shard=0 base=9
+scan 150000 shard=0 base=7
+scan 200000 shard=0 base=9
+scan 250000 shard=0 base=11
+scan 300000 shard=0 base=28
+scan 350000 shard=0 base=33
+scan 400000 shard=0 base=39
+scan 450000 shard=0 base=17
+scan 500000 shard=0 base=49
+scan 550000 shard=0 base=11
+scan 600000 shard=0 base=61
+scan 650000 shard=0 base=23
+scan 700000 shard=0 base=13
+scan 750000 shard=0 base=26
+scan 800000 shard=0 base=83
+scan 850000 shard=0 base=29
+scan 900000 shard=0 base=95
+scan 950000 shard=0 base=101
+scan 1000000 shard=0 base=107
+scan 1050000 shard=0 base=113
+scan 1100000 shard=0 base=119
+scan 1150000 shard=0 base=124
+scan 1200000 shard=0 base=131
+scan 1250000 shard=0 base=40
+scan 1300000 shard=0 base=143
+scan 1350000 shard=0 base=149
+scan 1400000 shard=0 base=44
+scan 1450000 shard=0 base=162
+scan 1500000 shard=0 base=13
+scan 1550000 shard=0 base=173
+scan 1600000 shard=0 base=49
+scan 1650000 shard=0 base=23
+scan 1700000 shard=0 base=193
+scan 1750000 shard=0 base=53
+scan 1800000 shard=0 base=206
+scan 1850000 shard=0 base=213
+scan 1900000 shard=0 base=219
+scan 1950000 shard=0 base=225
+scan 2000000 shard=0 base=231
+scan 2050000 shard=0 base=239
+scan 2100000 shard=0 base=245
+scan 2150000 shard=0 base=252
+scan 2200000 shard=0 base=28
+scan 2250000 shard=0 base=265
+scan 2300000 shard=0 base=272
+scan 2350000 shard=0 base=277
+scan 2400000 shard=0 base=284
+scan 2450000 shard=0 base=290
+scan 2500000 shard=0 base=297
+scan 2550000 shard=0 base=305
+scan 2600000 shard=0 base=74
+scan 2650000 shard=0 base=317
+scan 2700000 shard=0 base=324
+scan 2750000 shard=0 base=331
+scan 2800000 shard=0 base=79
+scan 2850000 shard=0 base=80
+scan 2900000 shard=0 base=352
+scan 2950000 shard=0 base=359
+scan 3000000 shard=0 base=364
+scan 3050000 shard=0 base=373
+scan 3100000 shard=0 base=379
+scan 3150000 shard=0 base=386
+scan 3200000 shard=0 base=393
+scan 3250000 shard=0 base=398
+scan 3300000 shard=0 base=407
+scan 3350000 shard=0 base=412
+scan 3400000 shard=0 base=420
+scan 3450000 shard=0 base=94
+scan 3500000 shard=0 base=95
+scan 3550000 shard=0 base=441
+scan 3600000 shard=0 base=448
+scan 3650000 shard=0 base=455
+scan 3700000 shard=0 base=463
+scan 3750000 shard=0 base=470
+scan 3800000 shard=0 base=102
+scan 3850000 shard=0 base=483
+scan 3900000 shard=0 base=104
+scan 3950000 shard=0 base=497
+scan 4000000 shard=0 base=505
+scan 4050000 shard=0 base=512
+scan 4100000 shard=0 base=109
+scan 4150000 shard=0 base=527
+scan 4200000 shard=0 base=533
+scan 4250000 shard=0 base=540
+scan 4300000 shard=0 base=547
+scan 4350000 shard=0 base=15
+scan 4400000 shard=0 base=561
+scan 4450000 shard=0 base=569
+scan 4500000 shard=0 base=576
+scan 4550000 shard=0 base=584
+scan 4600000 shard=0 base=591
+scan 4650000 shard=0 base=121
+scan 4700000 shard=0 base=606
+scan 4750000 shard=0 base=613
+scan 4800000 shard=0 base=620
+scan 4850000 shard=0 base=627
+scan 4900000 shard=0 base=635
+scan 4950000 shard=0 base=642
+scan 5000000 shard=0 base=649
+scan 5050000 shard=0 base=49
+scan 5100000 shard=0 base=664
+scan 5150000 shard=0 base=672
+scan 5200000 shard=0 base=133
+scan 5250000 shard=0 base=134
+scan 5300000 shard=0 base=694
+scan 5350000 shard=0 base=51
+scan 5400000 shard=0 base=709
+scan 5450000 shard=0 base=717
+scan 5500000 shard=0 base=52
+scan 5550000 shard=0 base=731
+scan 5600000 shard=0 base=739
+scan 5650000 shard=0 base=746
+scan 5700000 shard=0 base=752
+scan 5750000 shard=0 base=761
+scan 5800000 shard=0 base=146
+scan 5850000 shard=0 base=147
+scan 5900000 shard=0 base=28
+scan 5950000 shard=0 base=791
+scan 6000000 shard=0 base=798
+scan 6050000 shard=0 base=806
+scan 6100000 shard=0 base=814
+scan 6150000 shard=0 base=822
+scan 6200000 shard=0 base=830
+scan 6250000 shard=0 base=839
+scan 6300000 shard=0 base=57
+scan 6350000 shard=0 base=851
+scan 6400000 shard=0 base=859
+scan 6450000 shard=0 base=868
+scan 6500000 shard=0 base=161
+scan 6550000 shard=0 base=883
+scan 6600000 shard=0 base=891
+scan 6650000 shard=0 base=898
+scan 6700000 shard=0 base=906
+scan 6750000 shard=0 base=914
+scan 6800000 shard=0 base=922
+scan 6850000 shard=0 base=931
+scan 6900000 shard=0 base=938
+scan 6950000 shard=0 base=946
+scan 7000000 shard=0 base=953
+scan 7050000 shard=0 base=961
+scan 7100000 shard=0 base=967
+scan 7150000 shard=0 base=975
+scan 7200000 shard=0 base=983
+scan 7250000 shard=0 base=992
+scan 7300000 shard=0 base=999
+scan 7350000 shard=0 base=1008
+scan 7400000 shard=0 base=1016
+scan 7450000 shard=0 base=181
+scan 7500000 shard=0 base=1031
+scan 7550000 shard=0 base=1039
+scan 7600000 shard=0 base=1048
+scan 7650000 shard=0 base=1055
+scan 7700000 shard=0 base=1063
+scan 7750000 shard=0 base=1072
+scan 7800000 shard=0 base=1080
+scan 7850000 shard=0 base=1088
+scan 7900000 shard=0 base=1096
+scan 7950000 shard=0 base=1103
+scan 8000000 shard=0 base=1111
+scan 8050000 shard=0 base=1119
+scan 8100000 shard=0 base=1128
+scan 8150000 shard=0 base=1136
+scan 8200000 shard=0 base=1145
+scan 8250000 shard=0 base=1153
+scan 8300000 shard=0 base=69
+scan 8350000 shard=0 base=1168
+scan 8400000 shard=0 base=1177
+scan 8450000 shard=0 base=202
+scan 8500000 shard=0 base=203
+scan 8550000 shard=0 base=1202
+scan 8600000 shard=0 base=1211
+scan 8650000 shard=0 base=71
+scan 8700000 shard=0 base=1225
+scan 8750000 shard=0 base=1233
+scan 8800000 shard=0 base=1241
+scan 8850000 shard=0 base=1251
+scan 8900000 shard=0 base=1259
+scan 8950000 shard=0 base=1268
+scan 9000000 shard=0 base=73
+scan 9050000 shard=0 base=1283
+scan 9100000 shard=0 base=1292
+scan 9150000 shard=0 base=1301
+scan 9200000 shard=0 base=1309
+scan 9250000 shard=0 base=1318
+scan 9300000 shard=0 base=1327
+scan 9350000 shard=0 base=1335
+scan 9400000 shard=0 base=1343
+scan 9450000 shard=0 base=223
+scan 9500000 shard=0 base=224
+scan 9550000 shard=0 base=225
+scan 9600000 shard=0 base=1376
+scan 9650000 shard=0 base=227
+scan 9700000 shard=0 base=1393
+scan 9750000 shard=0 base=229
+scan 9800000 shard=0 base=230
+scan 9850000 shard=0 base=1419
+scan 9900000 shard=0 base=1427
+scan 9950000 shard=0 base=1436
+scan 10000000 shard=0 base=1445
+scan 10050000 shard=0 base=1453
+scan 10100000 shard=0 base=1461
+scan 10150000 shard=0 base=1470
+scan 10200000 shard=0 base=1480
+scan 10250000 shard=0 base=1487
+scan 10300000 shard=0 base=1497
+scan 10350000 shard=0 base=23
+scan 10400000 shard=0 base=1513
+scan 10450000 shard=0 base=39
+scan 10500000 shard=0 base=1529
+scan 10550000 shard=0 base=1539
+scan 10600000 shard=0 base=82
+scan 10650000 shard=0 base=1556
+scan 10700000 shard=0 base=1566
+scan 10750000 shard=0 base=250
+scan 10800000 shard=0 base=1583
+scan 10850000 shard=0 base=1591
+scan 10900000 shard=0 base=253
+scan 10950000 shard=0 base=1609
+scan 11000000 shard=0 base=1618
+scan 11050000 shard=0 base=1627
+scan 11100000 shard=0 base=1636
+scan 11150000 shard=0 base=1644
+scan 11200000 shard=0 base=1653
+scan 11250000 shard=0 base=1663
+scan 11300000 shard=0 base=1672
+scan 11350000 shard=0 base=41
+scan 11400000 shard=0 base=1688
+scan 11450000 shard=0 base=1697
+scan 11500000 shard=0 base=1707
+scan 11550000 shard=0 base=1715
+scan 11600000 shard=0 base=1725
+scan 11650000 shard=0 base=1735
+scan 11700000 shard=0 base=1743
+scan 11750000 shard=0 base=1753
+scan 11800000 shard=0 base=1762
+scan 11850000 shard=0 base=273
+scan 11900000 shard=0 base=1779
+scan 11950000 shard=0 base=275
+scan 12000000 shard=0 base=1798
+scan 12050000 shard=0 base=1807
+scan 12100000 shard=0 base=1816
+scan 12150000 shard=0 base=1825
+scan 12200000 shard=0 base=1834
+scan 12250000 shard=0 base=1842
+scan 12300000 shard=0 base=1851
+scan 12350000 shard=0 base=1859
+scan 12400000 shard=0 base=1869
+scan 12450000 shard=0 base=1879
+scan 12500000 shard=0 base=1889
+scan 12550000 shard=0 base=1898
+scan 12600000 shard=0 base=1908
+scan 12650000 shard=0 base=1916
+scan 12700000 shard=0 base=1927
+scan 12750000 shard=0 base=44
+scan 12800000 shard=0 base=1945
+scan 12850000 shard=0 base=1954
+scan 12900000 shard=0 base=295
+scan 12950000 shard=0 base=1973
+scan 13000000 shard=0 base=297
+scan 13050000 shard=0 base=1991
+scan 13100000 shard=0 base=26
+scan 13150000 shard=0 base=307
+scan 13200000 shard=0 base=316
+scan 13250000 shard=0 base=47
+scan 13300000 shard=0 base=331
+scan 13350000 shard=0 base=339
+scan 13400000 shard=0 base=346
+scan 13450000 shard=0 base=354
+scan 13500000 shard=0 base=29
+scan 13550000 shard=0 base=369
+scan 13600000 shard=0 base=378
+scan 13650000 shard=0 base=53
+scan 13700000 shard=0 base=394
+scan 13750000 shard=0 base=403
+scan 13800000 shard=0 base=123
+scan 13850000 shard=0 base=419
+scan 13900000 shard=0 base=427
+scan 13950000 shard=0 base=129
+scan 14000000 shard=0 base=131
+scan 14050000 shard=0 base=133
+scan 14100000 shard=0 base=460
+scan 14150000 shard=0 base=137
+scan 14200000 shard=0 base=61
+scan 14250000 shard=0 base=485
+scan 14300000 shard=0 base=493
+scan 14350000 shard=0 base=502
+scan 14400000 shard=0 base=509
+scan 14450000 shard=0 base=519
+scan 14500000 shard=0 base=527
+scan 14550000 shard=0 base=535
+scan 14600000 shard=0 base=544
+scan 14650000 shard=0 base=553
+scan 14700000 shard=0 base=158
+scan 14750000 shard=0 base=569
+scan 14800000 shard=0 base=577
+scan 14850000 shard=0 base=586
+scan 14900000 shard=0 base=166
+scan 14950000 shard=0 base=603
+scan 15000000 shard=0 base=611
+scan 15050000 shard=0 base=621
+scan 50000 shard=0 base=2 near=61237
+scan 100000 shard=0 base=9 near=122774
+scan 150000 shard=0 base=7 near=129302
+scan 200000 shard=0 base=9 near=129645
+scan 250000 shard=0 base=11 near=129933
+scan 300000 shard=0 base=28 near=130111
+scan 350000 shard=0 base=33 near=130258
+scan 400000 shard=0 base=39 near=130385
+scan 450000 shard=0 base=17 near=130492
+scan 500000 shard=0 base=49 near=130592
+scan 550000 shard=0 base=11 near=130680
+scan 600000 shard=0 base=61 near=130769
+scan 650000 shard=0 base=23 near=130836
+scan 700000 shard=0 base=13 near=130906
+scan 750000 shard=0 base=26 near=130967
+scan 800000 shard=0 base=83 near=131023
+scan 850000 shard=0 base=29 near=131076
+scan 900000 shard=0 base=95 near=131140
+scan 950000 shard=0 base=101 near=131190
+scan 1000000 shard=0 base=107 near=131237
+scan 1050000 shard=0 base=113 near=131273
+scan 1100000 shard=0 base=119 near=131309
+scan 1150000 shard=0 base=124 near=131359
+scan 1200000 shard=0 base=131 near=131401
+scan 1250000 shard=0 base=40 near=131445
+scan 1300000 shard=0 base=143 near=131478
+scan 1350000 shard=0 base=149 near=131513
+scan 1400000 shard=0 base=44 near=131531
+scan 1450000 shard=0 base=162 near=131564
+scan 50000 shard=0 base=2 near=59684
+scan 100000 shard=0 base=9 near=119956
+scan 150000 shard=0 base=7 near=126012
+scan 200000 shard=0 base=9 near=126023
+scan 250000 shard=0 base=11 near=126042
+scan 300000 shard=0 base=28 near=126070
+scan 350000 shard=0 base=33 near=126098
+scan 400000 shard=0 base=39 near=126135
+scan 450000 shard=0 base=17 near=126166
+scan 500000 shard=0 base=49 near=126207
+scan 550000 shard=0 base=11 near=126248
+scan 600000 shard=0 base=61 near=126299
+scan 650000 shard=0 base=23 near=126353
+scan 700000 shard=0 base=13 near=126415
+scan 750000 shard=0 base=26 near=126466
+scan 800000 shard=0 base=83 near=126522
+scan 850000 shard=0 base=29 near=126575
+scan 900000 shard=0 base=95 near=126639
+scan 950000 shard=0 base=101 near=126689
+scan 1000000 shard=0 base=107 near=126736
+scan 1050000 shard=0 base=113 near=126772
+scan 1100000 shard=0 base=119 near=126808
+scan 1150000 shard=0 base=124 near=126858
+scan 1200000 shard=0 base=131 near=126900
+scan 1250000 shard=0 base=40 near=126944
+scan 1300000 shard=0 base=143 near=126977
+scan 1350000 shard=0 base=149 near=127012
+scan 1400000 shard=0 base=44 near=127030
+scan 1450000 shard=0 base=162 near=127063
+scan 1500000 shard=0 base=13 near=127098
+scan 1550000 shard=0 base=173 near=127123
+scan 1600000 shard=0 base=49 near=127147
+scan 1650000 shard=0 base=23 near=127174
+scan 1700000 shard=0 base=193 near=127201
+scan 1750000 shard=0 base=53 near=127221
+scan 1800000 shard=0 base=206 near=127238
+scan 1850000 shard=0 base=213 near=127255
+scan 1900000 shard=0 base=219 near=127278
+scan 1950000 shard=0 base=225 near=127297
+scan 2000000 shard=0 base=231 near=127314
+scan 2050000 shard=0 base=239 near=127339
+scan 2100000 shard=0 base=245 near=127356
+scan 2150000 shard=0 base=252 near=127369
+scan 2200000 shard=0 base=28 near=127402
+scan 2250000 shard=0 base=265 near=127419
+scan 2300000 shard=0 base=272 near=127436
+scan 2350000 shard=0 base=277 near=127450
+scan 2400000 shard=0 base=284 near=127467
+scan 2450000 shard=0 base=290 near=127488
+scan 2500000 shard=0 base=297 near=127506
+scan 2550000 shard=0 base=305 near=127518
+scan 50000 shard=0 base=2 near=0
+scan 100000 shard=0 base=9 near=0
+scan 150000 shard=0 base=7 near=0
+scan 200000 shard=0 base=9 near=7
+scan 250000 shard=0 base=11 near=21
+scan 300000 shard=0 base=28 near=42
+scan 350000 shard=0 base=33 near=67
+scan 400000 shard=0 base=39 near=99
+scan 450000 shard=0 base=17 near=127
+scan 500000 shard=0 base=49 near=168
+scan 550000 shard=0 base=11 near=209
+scan 600000 shard=0 base=61 near=258
+scan 650000 shard=0 base=23 near=309
+scan 700000 shard=0 base=13 near=369
+scan 750000 shard=0 base=26 near=420
+scan 800000 shard=0 base=83 near=476
+scan 850000 shard=0 base=29 near=529
+scan 900000 shard=0 base=95 near=590
+scan 950000 shard=0 base=101 near=639
+scan 1000000 shard=0 base=107 near=685
+scan 1050000 shard=0 base=113 near=721
+scan 1100000 shard=0 base=119 near=757
+scan 1150000 shard=0 base=124 near=807
+scan 1200000 shard=0 base=131 near=849
+scan 1250000 shard=0 base=40 near=893
+scan 1300000 shard=0 base=143 near=924
+scan 1350000 shard=0 base=149 near=959
+scan 1400000 shard=0 base=44 near=977
+scan 1450000 shard=0 base=162 near=1009
+scan 1500000 shard=0 base=13 near=1043
+scan 1550000 shard=0 base=173 near=1067
+scan 1600000 shard=0 base=49 near=1091
+scan 1650000 shard=0 base=23 near=1118
+scan 1700000 shard=0 base=193 near=1144
+scan 1750000 shard=0 base=53 near=1164
+scan 1800000 shard=0 base=206 near=1181
+scan 1850000 shard=0 base=213 near=1198
+scan 1900000 shard=0 base=219 near=1221
+scan 1950000 shard=0 base=225 near=1239
+scan 2000000 shard=0 base=231 near=1256
+scan 2050000 shard=0 base=239 near=1280
+scan 2100000 shard=0 base=245 near=1297
+scan 2150000 shard=0 base=252 near=1310
+scan 2200000 shard=0 base=28 near=1343
+scan 2250000 shard=0 base=265 near=17
+scan 2300000 shard=0 base=272 near=33
+scan 2350000 shard=0 base=277 near=47
+scan 2400000 shard=0 base=284 near=64
+scan 2450000 shard=0 base=290 near=85
+scan 2500000 shard=0 base=297 near=103
+scan 2550000 shard=0 base=305 near=115
+scan 2600000 shard=0 base=74 near=136
+scan 2650000 shard=0 base=317 near=147
+scan 2700000 shard=0 base=324 near=164
+scan 2750000 shard=0 base=331 near=176
+scan 2800000 shard=0 base=79 near=190
+scan 2850000 shard=0 base=80 near=198
+scan 2900000 shard=0 base=352 near=211
+scan 2950000 shard=0 base=359 near=217
+scan 3000000 shard=0 base=364 near=222
+scan 3050000 shard=0 base=373 near=232
+scan 3100000 shard=0 base=379 near=243
+scan 3150000 shard=0 base=386 near=264
+scan 3200000 shard=0 base=393 near=273
+scan 3250000 shard=0 base=398 near=278
+scan 3300000 shard=0 base=407 near=291
+scan 3350000 shard=0 base=412 near=298
+scan 3400000 shard=0 base=420 near=305
+scan 3450000 shard=0 base=94 near=315
+scan 3500000 shard=0 base=95 near=325
+scan 3550000 shard=0 base=441 near=332
+scan 3600000 shard=0 base=448 near=340
+scan 3650000 shard=0 base=455 near=353
+scan 3700000 shard=0 base=463 near=359
+scan 3750000 shard=0 base=470 near=370
+scan 3800000 shard=0 base=102 near=379
+scan 3850000 shard=0 base=483 near=387
+scan 3900000 shard=0 base=104 near=394
+scan 3950000 shard=0 base=497 near=402
+scan 4000000 shard=0 base=505 near=411
+scan 4050000 shard=0 base=512 near=422
+scan 4100000 shard=0 base=109 near=426
+scan 4150000 shard=0 base=527 near=432
+scan 4200000 shard=0 base=533 near=435
+scan 4250000 shard=0 base=540 near=443
+scan 4300000 shard=0 base=547 near=449
+scan 4350000 shard=0 base=15 near=458
+scan 4400000 shard=0 base=561 near=461
+scan 4450000 shard=0 base=569 near=467
+scan 4500000 shard=0 base=576 near=473
+scan 4550000 shard=0 base=584 near=480
+scan 4600000 shard=0 base=591 near=483
+scan 4650000 shard=0 base=121 near=493
+scan 4700000 shard=0 base=606 near=503
+scan 4750000 shard=0 base=613 near=509
+scan 4800000 shard=0 base=620 near=513
+scan 4850000 shard=0 base=627 near=519
+scan 4900000 shard=0 base=635 near=527
+scan 4950000 shard=0 base=642 near=533
+scan 5000000 shard=0 base=649 near=538
+scan 5050000 shard=0 base=49 near=545
+scan 5100000 shard=0 base=664 near=547
+scan 5150000 shard=0 base=672 near=551
+scan 5200000 shard=0 base=133 near=554
+scan 5250000 shard=0 base=134 near=560
+scan 5300000 shard=0 base=694 near=568
+scan 5350000 shard=0 base=51 near=570
+scan 5400000 shard=0 base=709 near=576
+scan 5450000 shard=0 base=717 near=581
+scan 5500000 shard=0 base=52 near=588
+scan 5550000 shard=0 base=731 near=592
+scan 5600000 shard=0 base=739 near=598
+scan 5650000 shard=0 base=746 near=605
+scan 5700000 shard=0 base=752 near=610
+scan 5750000 shard=0 base=761 near=619
+scan 5800000 shard=0 base=146 near=620
+scan 5850000 shard=0 base=147 near=625
+scan 5900000 shard=0 base=28 near=631
+scan 5950000 shard=0 base=791 near=635
+scan 6000000 shard=0 base=798 near=640
+scan 6050000 shard=0 base=806 near=643
+scan 6100000 shard=0 base=814 near=648
+scan 6150000 shard=0 base=822 near=651
+scan 6200000 shard=0 base=830 near=656
+scan 6250000 shard=0 base=839 near=659
+scan 6300000 shard=0 base=57 near=667
+scan 6350000 shard=0 base=851 near=670
+scan 6400000 shard=0 base=859 near=673
+scan 6450000 shard=0 base=868 near=677
+scan 6500000 shard=0 base=161 near=678
+scan 6550000 shard=0 base=883 near=686
+scan 6600000 shard=0 base=891 near=688
+scan 6650000 shard=0 base=898 near=690
+scan 6700000 shard=0 base=906 near=694
+scan 6750000 shard=0 base=914 near=697
+scan 6800000 shard=0 base=922 near=701
+scan 6850000 shard=0 base=931 near=701
+scan 6900000 shard=0 base=938 near=702
+scan 6950000 shard=0 base=946 near=705
+scan 7000000 shard=0 base=953 near=708
+scan 7050000 shard=0 base=961 near=708
+scan 7100000 shard=0 base=967 near=709
+scan 7150000 shard=0 base=975 near=709
+scan 7200000 shard=0 base=983 near=714
+scan 7250000 shard=0 base=992 near=717
+scan 7300000 shard=0 base=999 near=719
+scan 7350000 shard=0 base=1008 near=720
+scan 7400000 shard=0 base=1016 near=722
+scan 7450000 shard=0 base=181 near=724
+scan 7500000 shard=0 base=1031 near=724
+scan 7550000 shard=0 base=1039 near=728
+scan 7600000 shard=0 base=1048 near=730
+scan 7650000 shard=0 base=1055 near=733
+scan 7700000 shard=0 base=1063 near=737
+scan 7750000 shard=0 base=1072 near=737
+scan 7800000 shard=0 base=1080 near=740
+scan 7850000 shard=0 base=1088 near=741
+scan 7900000 shard=0 base=1096 near=743
+scan 7950000 shard=0 base=1103 near=743
+scan 8000000 shard=0 base=1111 near=744
+scan 8050000 shard=0 base=1119 near=745
+scan 8100000 shard=0 base=1128 near=748
+scan 8150000 shard=0 base=1136 near=748
+scan 8200000 shard=0 base=1145 near=751
+scan 8250000 shard=0 base=1153 near=752
+scan 8300000 shard=0 base=69 near=753
+scan 8350000 shard=0 base=1168 near=755
+scan 8400000 shard=0 base=1177 near=756
+scan 8450000 shard=0 base=202 near=758
+scan 8500000 shard=0 base=203 near=760
+scan 8550000 shard=0 base=1202 near=760
+scan 8600000 shard=0 base=1211 near=760
+scan 8650000 shard=0 base=71 near=760
+scan 8700000 shard=0 base=1225 near=762
+scan 8750000 shard=0 base=1233 near=762
+scan 8800000 shard=0 base=1241 near=764
+scan 8850000 shard=0 base=1251 near=765
+scan 8900000 shard=0 base=1259 near=767
+scan 8950000 shard=0 base=1268 near=767
+scan 9000000 shard=0 base=73 near=768
+scan 9050000 shard=0 base=1283 near=769
+scan 9100000 shard=0 base=1292 near=772
+scan 9150000 shard=0 base=1301 near=772
+scan 9200000 shard=0 base=1309 near=774
+scan 9250000 shard=0 base=1318 near=774
+scan 9300000 shard=0 base=1327 near=775
+scan 9350000 shard=0 base=1335 near=777
+scan 9400000 shard=0 base=1343 near=778
+scan 9450000 shard=0 base=223 near=779
+scan 9500000 shard=0 base=224 near=780
+scan 9550000 shard=0 base=225 near=780
+scan 9600000 shard=0 base=1376 near=783
+scan 9650000 shard=0 base=227 near=786
+scan 9700000 shard=0 base=1393 near=786
+scan 9750000 shard=0 base=229 near=789
+scan 9800000 shard=0 base=230 near=791
+scan 9850000 shard=0 base=1419 near=792
+scan 9900000 shard=0 base=1427 near=793
+scan 9950000 shard=0 base=1436 near=793
+scan 10000000 shard=0 base=1445 near=793
+scan 10050000 shard=0 base=1453 near=794
+scan 10100000 shard=0 base=1461 near=795
+scan 10150000 shard=0 base=1470 near=795
+scan 10200000 shard=0 base=1480 near=796
+scan 10250000 shard=0 base=1487 near=797
+scan 10300000 shard=0 base=1497 near=800
+scan 10350000 shard=0 base=23 near=801
+scan 10400000 shard=0 base=1513 near=803
+scan 10450000 shard=0 base=39 near=803
+scan 10500000 shard=0 base=1529 near=804
+scan 10550000 shard=0 base=1539 near=804
+scan 10600000 shard=0 base=82 near=806
+scan 10650000 shard=0 base=1556 near=808
+scan 10700000 shard=0 base=1566 near=808
+scan 10750000 shard=0 base=250 near=808
+scan 10800000 shard=0 base=1583 near=809
+scan 10850000 shard=0 base=1591 near=809
+scan 10900000 shard=0 base=253 near=809
+scan 10950000 shard=0 base=1609 near=810
+scan 11000000 shard=0 base=1618 near=810
+scan 11050000 shard=0 base=1627 near=811
+scan 11100000 shard=0 base=1636 near=811
+scan 11150000 shard=0 base=1644 near=811
+scan 11200000 shard=0 base=1653 near=814
+scan 11250000 shard=0 base=1663 near=814
+scan 11300000 shard=0 base=1672 near=814
+scan 11350000 shard=0 base=41 near=814
+scan 11400000 shard=0 base=1688 near=814
+scan 11450000 shard=0 base=1697 near=816
+scan 11500000 shard=0 base=1707 near=816
+scan 11550000 shard=0 base=1715 near=817
+busy 69709
+scan 11600000 shard=0 base=1725 near=0
+scan 11650000 shard=0 base=1735 near=0
+scan 11700000 shard=0 base=1743 near=0
+scan 11750000 shard=0 base=1753 near=0
+scan 11800000 shard=0 base=1762 near=1
+scan 11850000 shard=0 base=273 near=1
+scan 11900000 shard=0 base=1779 near=1
+scan 11950000 shard=0 base=275 near=1
+scan 12000000 shard=0 base=1798 near=1
+scan 12050000 shard=0 base=1807 near=2
+scan 12100000 shard=0 base=1816 near=2
+scan 12150000 shard=0 base=1825 near=3
+scan 12200000 shard=0 base=1834 near=3
+scan 12250000 shard=0 base=1842 near=4
+scan 12300000 shard=0 base=1851 near=4
+scan 12350000 shard=0 base=1859 near=4
+scan 12400000 shard=0 base=1869 near=5
+scan 12450000 shard=0 base=1879 near=5
+scan 12500000 shard=0 base=1889 near=6
+scan 12550000 shard=0 base=1898 near=6
+scan 12600000 shard=0 base=1908 near=7
+scan 12650000 shard=0 base=1916 near=7
+scan 12700000 shard=0 base=1927 near=7
+scan 12750000 shard=0 base=44 near=7
+scan 12800000 shard=0 base=1945 near=7
+scan 12850000 shard=0 base=1954 near=8
+scan 12900000 shard=0 base=295 near=9
+scan 12950000 shard=0 base=1973 near=10
+scan 13000000 shard=0 base=297 near=10
+scan 13050000 shard=0 base=1991 near=10
+scan 13100000 shard=0 base=26 near=11
+scan 13150000 shard=0 base=307 near=11
+scan 13200000 shard=0 base=316 near=11
+scan 13250000 shard=0 base=47 near=12
+scan 13300000 shard=0 base=331 near=13
+scan 13350000 shard=0 base=339 near=13
+scan 13400000 shard=0 base=346 near=13
+scan 13450000 shard=0 base=354 near=13
+scan 13500000 shard=0 base=29 near=13
+scan 13550000 shard=0 base=369 near=13
+scan 13600000 shard=0 base=378 near=13
+scan 13650000 shard=0 base=53 near=13
+scan 13700000 shard=0 base=394 near=13
+scan 13750000 shard=0 base=403 near=13
+scan 13800000 shard=0 base=123 near=13
+scan 13850000 shard=0 base=419 near=13
+scan 13900000 shard=0 base=427 near=13
+scan 13950000 shard=0 base=129 near=13
+scan 14000000 shard=0 base=131 near=13
+scan 14050000 shard=0 base=133 near=13
+scan 14100000 shard=0 base=460 near=13
+scan 14150000 shard=0 base=137 near=13
+scan 14200000 shard=0 base=61 near=13
+scan 14250000 shard=0 base=485 near=13
+scan 14300000 shard=0 base=493 near=13
+scan 14350000 shard=0 base=502 near=13
+scan 14400000 shard=0 base=509 near=13
+scan 14450000 shard=0 base=519 near=13
+scan 14500000 shard=0 base=527 near=13
+scan 14550000 shard=0 base=535 near=13
+scan 14600000 shard=0 base=544 near=13
+scan 14650000 shard=0 base=553 near=13
+scan 14700000 shard=0 base=158 near=13
+scan 14750000 shard=0 base=569 near=13
+scan 14800000 shard=0 base=577 near=13
+scan 14850000 shard=0 base=586 near=14
+scan 14900000 shard=0 base=166 near=14
+scan 14950000 shard=0 base=603 near=14
+scan 15000000 shard=0 base=611 near=14
+scan 15050000 shard=0 base=621 near=14
+scan 15100000 shard=0 base=629 near=14
+scan 15150000 shard=0 base=637 near=14
+scan 15200000 shard=0 base=647 near=14
+scan 15250000 shard=0 base=655 near=14
+scan 15300000 shard=0 base=664 near=14
+scan 15350000 shard=0 base=673 near=14
+scan 15400000 shard=0 base=682 near=14
+scan 15450000 shard=0 base=691 near=14
+scan 15500000 shard=0 base=189 near=14
+scan 15550000 shard=0 base=709 near=14
+scan 15600000 shard=0 base=718 near=14
+scan 15650000 shard=0 base=726 near=14
+scan 15700000 shard=0 base=735 near=14
+scan 15750000 shard=0 base=744 near=15
+scan 15800000 shard=0 base=753 near=15
+scan 15850000 shard=0 base=202 near=15
+scan 15900000 shard=0 base=771 near=15
+scan 15950000 shard=0 base=781 near=15
+scan 16000000 shard=0 base=789 near=15
+scan 16050000 shard=0 base=799 near=15
+scan 16100000 shard=0 base=212 near=15
+scan 16150000 shard=0 base=817 near=15
+scan 16200000 shard=0 base=826 near=15
+scan 16250000 shard=0 base=836 near=15
+scan 16300000 shard=0 base=47 near=15
+scan 16350000 shard=0 base=853 near=15
+scan 16400000 shard=0 base=863 near=15
+scan 16450000 shard=0 base=872 near=15
+scan 16500000 shard=0 base=227 near=15
+scan 16550000 shard=0 base=229 near=15
+scan 16600000 shard=0 base=231 near=15
+scan 16650000 shard=0 base=910 near=15
+scan 16700000 shard=0 base=919 near=15
+scan 16750000 shard=0 base=928 near=15
+scan 16800000 shard=0 base=939 near=15
+scan 16850000 shard=0 base=947 near=15
+scan 16900000 shard=0 base=956 near=15
+scan 16950000 shard=0 base=967 near=15
+scan 17000000 shard=0 base=976 near=15
+scan 17050000 shard=0 base=985 near=15
+scan 17100000 shard=0 base=995 near=15
+scan 17150000 shard=0 base=1005 near=15
+scan 17200000 shard=0 base=1015 near=15
+scan 17250000 shard=0 base=1024 near=15
+scan 17300000 shard=0 base=1034 near=15
+scan 17350000 shard=0 base=1043 near=15
+scan 17400000 shard=0 base=1052 near=15
+scan 17450000 shard=0 base=1062 near=15
+scan 17500000 shard=0 base=1073 near=15
+scan 17550000 shard=0 base=1082 near=15
+scan 17600000 shard=0 base=106 near=15
+scan 17650000 shard=0 base=1103 near=15
+scan 17700000 shard=0 base=1111 near=15
+scan 17750000 shard=0 base=1121 near=15
+scan 17800000 shard=0 base=1131 near=15
+scan 17850000 shard=0 base=1141 near=15
+scan 17900000 shard=0 base=1151 near=15
+scan 17950000 shard=0 base=1161 near=15
+scan 18000000 shard=0 base=1171 near=15
+scan 18050000 shard=0 base=287 near=15
+scan 18100000 shard=0 base=289 near=15
+scan 18150000 shard=0 base=113 near=15
+scan 18200000 shard=0 base=293 near=15
+scan 18250000 shard=0 base=295 near=15
+scan 18300000 shard=0 base=297 near=15
+scan 18350000 shard=0 base=1243 near=15
+scan 18400000 shard=0 base=1253 near=15
+scan 18450000 shard=0 base=1263 near=15
+scan 18500000 shard=0 base=1273 near=15
+scan 18550000 shard=0 base=1283 near=15
+scan 18600000 shard=0 base=1294 near=15
+scan 18650000 shard=0 base=1304 near=15
+scan 18700000 shard=0 base=1315 near=15
+scan 18750000 shard=0 base=1326 near=15
+scan 18800000 shard=0 base=1334 near=15
+scan 18850000 shard=0 base=1346 near=15
+scan 18900000 shard=0 base=1357 near=15
+scan 18950000 shard=0 base=1367 near=15
+scan 19000000 shard=0 base=1377 near=15
+scan 19050000 shard=0 base=1388 near=15
+scan 19100000 shard=0 base=1399 near=15
+scan 19150000 shard=0 base=1409 near=15
+scan 19200000 shard=0 base=1420 near=15
+scan 19250000 shard=0 base=127 near=15
+scan 19300000 shard=0 base=1441 near=15
+scan 19350000 shard=0 base=1451 near=15
+scan 19400000 shard=0 base=1463 near=15
+scan 19450000 shard=0 base=1474 near=15
+scan 19500000 shard=0 base=1485 near=15
+scan 19550000 shard=0 base=1496 near=15
+scan 19600000 shard=0 base=1506 near=15
+scan 19650000 shard=0 base=1517 near=15
+scan 19700000 shard=0 base=1529 near=15
+scan 19750000 shard=0 base=1539 near=15
+scan 19800000 shard=0 base=1551 near=15
+scan 19850000 shard=0 base=1562 near=15
+scan 19900000 shard=0 base=1571 near=15
+scan 19950000 shard=0 base=1583 near=15
+scan 20000000 shard=0 base=1595 near=15
+scan 20050000 shard=0 base=1606 near=15
+scan 20100000 shard=0 base=1616 near=15
+scan 20150000 shard=0 base=1628 near=15
+scan 20200000 shard=0 base=1639 near=15
+scan 20250000 shard=0 base=375 near=15
+scan 20300000 shard=0 base=377 near=15
+scan 20350000 shard=0 base=1673 near=15
+scan 20400000 shard=0 base=1684 near=15
+scan 20450000 shard=0 base=1695 near=15
+scan 20500000 shard=0 base=1708 near=15
+scan 20550000 shard=0 base=1719 near=15
+scan 20600000 shard=0 base=1730 near=15
+scan 20650000 shard=0 base=1741 near=15
+scan 20700000 shard=0 base=1753 near=15
+scan 20750000 shard=0 base=1765 near=15
+scan 20800000 shard=0 base=1777 near=15
+scan 20850000 shard=0 base=400 near=15
+scan 20900000 shard=0 base=148 near=15
+scan 20950000 shard=0 base=1812 near=15
+scan 21000000 shard=0 base=1823 near=15
+scan 21050000 shard=0 base=1835 near=15
+scan 21100000 shard=0 base=1847 near=15
+scan 21150000 shard=0 base=1859 near=15
+scan 21200000 shard=0 base=1871 near=15
+scan 21250000 shard=0 base=1883 near=15
+scan 21300000 shard=0 base=1895 near=15
+scan 21350000 shard=0 base=421 near=15
+scan 21400000 shard=0 base=423 near=15
+scan 21450000 shard=0 base=1930 near=15
+scan 21500000 shard=0 base=1943 near=15
+scan 21550000 shard=0 base=76 near=15
+scan 21600000 shard=0 base=157 near=15
+scan 21650000 shard=0 base=1980 near=15
+scan 21700000 shard=0 base=1993 near=15
+scan 21750000 shard=0 base=441 near=15
+scan 21800000 shard=0 base=163 near=15
+scan 21850000 shard=0 base=463 near=15
+scan 21900000 shard=0 base=473 near=15
+scan 21950000 shard=0 base=173 near=15
+scan 22000000 shard=0 base=176 near=15
+scan 22050000 shard=0 base=506 near=15
+scan 22100000 shard=0 base=518 near=15
+scan 22150000 shard=0 base=529 near=15
+scan 22200000 shard=0 base=540 near=15
+scan 22250000 shard=0 base=91 near=15
+scan 22300000 shard=0 base=563 near=15
+scan 22350000 shard=0 base=199 near=15
+scan 22400000 shard=0 base=587 near=15
+scan 22450000 shard=0 base=597 near=15
+scan 22500000 shard=0 base=209 near=15
+scan 22550000 shard=0 base=620 near=15
+scan 22600000 shard=0 base=632 near=15
+scan 22650000 shard=0 base=643 near=15
+scan 22700000 shard=0 base=656 near=15
+scan 22750000 shard=0 base=667 near=15
+scan 22800000 shard=0 base=229 near=15
+scan 22850000 shard=0 base=691 near=15
+scan 22900000 shard=0 base=108 near=15
+scan 22950000 shard=0 base=239 near=15
+scan 23000000 shard=0 base=727 near=15
+scan 23050000 shard=0 base=739 near=15
+scan 23100000 shard=0 base=249 near=15
+scan 23150000 shard=0 base=763 near=15
+scan 23200000 shard=0 base=775 near=15
+scan 23250000 shard=0 base=787 near=15
+scan 23300000 shard=0 base=800 near=15
+scan 23350000 shard=0 base=266 near=15
+scan 23400000 shard=0 base=121 near=15
+scan 23450000 shard=0 base=837 near=15
+scan 23500000 shard=0 base=850 near=15
+scan 23550000 shard=0 base=125 near=15
+scan 23600000 shard=0 base=283 near=15
+scan 23650000 shard=0 base=887 near=15
+scan 23700000 shard=0 base=901 near=15
+scan 23750000 shard=0 base=913 near=15
+scan 23800000 shard=0 base=926 near=15
+scan 23850000 shard=0 base=940 near=15
+scan 23900000 shard=0 base=952 near=15
+scan 23950000 shard=0 base=307 near=15
+scan 24000000 shard=0 base=979 near=15
+scan 24050000 shard=0 base=991 near=15
+scan 24100000 shard=0 base=1004 near=15
+scan 24150000 shard=0 base=321 near=15
+scan 24200000 shard=0 base=1031 near=15
+scan 24250000 shard=0 base=1045 near=15
+scan 24300000 shard=0 base=1059 near=15
+scan 24350000 shard=0 base=146 near=15
+scan 24400000 shard=0 base=1087 near=15
+scan 24450000 shard=0 base=1100 near=15
+scan 24500000 shard=0 base=1114 near=15
+scan 24550000 shard=0 base=1126 near=15
+scan 24600000 shard=0 base=353 near=15
+scan 24650000 shard=0 base=1155 near=15
+scan 24700000 shard=0 base=1169 near=15
+scan 24750000 shard=0 base=364 near=15
+scan 24800000 shard=0 base=158 near=15
+scan 24850000 shard=0 base=371 near=15
+scan 24900000 shard=0 base=375 near=15
+scan 24950000 shard=0 base=1241 near=15
+scan 25000000 shard=0 base=1255 near=15
+scan 25050000 shard=0 base=386 near=15
+scan 25100000 shard=0 base=1284 near=15
+scan 25150000 shard=0 base=1298 near=15
+scan 25200000 shard=0 base=397 near=15
+scan 25250000 shard=0 base=1329 near=15
+scan 25300000 shard=0 base=1343 near=15
+scan 25350000 shard=0 base=173 near=15
+scan 25400000 shard=0 base=412 near=15
+scan 25450000 shard=0 base=416 near=15
+scan 25500000 shard=0 base=1404 near=15
+scan 25550000 shard=0 base=1420 near=15
+scan 25600000 shard=0 base=1435 near=15
+scan 25650000 shard=0 base=431 near=15
+scan 25700000 shard=0 base=1467 near=15
+scan 25750000 shard=0 base=439 near=15
+scan 25800000 shard=0 base=443 near=15
+scan 25850000 shard=0 base=447 near=15
+scan 25900000 shard=0 base=1531 near=15
+scan 25950000 shard=0 base=1547 near=15
+scan 26000000 shard=0 base=1562 near=15
+scan 26050000 shard=0 base=1579 near=15
+scan 26100000 shard=0 base=194 near=15
+scan 26150000 shard=0 base=1612 near=15
+scan 26200000 shard=0 base=1629 near=15
+scan 26250000 shard=0 base=479 near=15
+scan 26300000 shard=0 base=483 near=15
+scan 26350000 shard=0 base=487 near=15
+scan 26400000 shard=0 base=1696 near=15
+scan 26450000 shard=0 base=1713 near=15
+scan 26500000 shard=0 base=1731 near=15
+scan 26550000 shard=0 base=207 near=15
+scan 26600000 shard=0 base=508 near=15
+scan 26650000 shard=0 base=1783 near=15
+scan 26700000 shard=0 base=1801 near=15
+scan 26750000 shard=0 base=1819 near=15
+scan 26800000 shard=0 base=525 near=15
+scan 26850000 shard=0 base=1855 near=15
+scan 26900000 shard=0 base=1874 near=15
+scan 26950000 shard=0 base=538 near=15
+scan 27000000 shard=0 base=1912 near=15
+scan 27050000 shard=0 base=547 near=15
+scan 27100000 shard=0 base=1949 near=15
+scan 27150000 shard=0 base=1969 near=15
+scan 27200000 shard=0 base=227 near=15
+scan 27250000 shard=0 base=230 near=15
+scan 27300000 shard=0 base=589 near=15
+scan 27350000 shard=0 base=608 near=15
+scan 27400000 shard=0 base=628 near=15
+scan 27450000 shard=0 base=257 near=15
+scan 27500000 shard=0 base=667 near=15
+scan 27550000 shard=0 base=688 near=15
+scan 27600000 shard=0 base=277 near=15
+scan 27650000 shard=0 base=284 near=15
+scan 27700000 shard=0 base=291 near=15
+scan 27750000 shard=0 base=298 near=15
+scan 27800000 shard=0 base=305 near=15
+scan 27850000 shard=0 base=813 near=15
+scan 27900000 shard=0 base=834 near=15
+scan 27950000 shard=0 base=857 near=15
+scan 28000000 shard=0 base=879 near=15
+scan 28050000 shard=0 base=901 near=15
+scan 28100000 shard=0 base=923 near=15
+scan 28150000 shard=0 base=947 near=15
+scan 28200000 shard=0 base=363 near=15
+scan 28250000 shard=0 base=993 near=15
+scan 28300000 shard=0 base=1017 near=15
+scan 28350000 shard=0 base=1041 near=15
+scan 28400000 shard=0 base=1065 near=15
+scan 28450000 shard=0 base=1090 near=15
+scan 28500000 shard=0 base=1115 near=15
+scan 28550000 shard=0 base=1141 near=15
+scan 28600000 shard=0 base=1166 near=15
+scan 28650000 shard=0 base=1192 near=15
+scan 28700000 shard=0 base=1219 near=15
+scan 28750000 shard=0 base=1246 near=15
+scan 28800000 shard=0 base=1274 near=15
+scan 28850000 shard=0 base=1301 near=15
+scan 28900000 shard=0 base=476 near=15
+scan 28950000 shard=0 base=485 near=15
+scan 29000000 shard=0 base=1388 near=15
+scan 29050000 shard=0 base=503 near=15
+scan 29100000 shard=0 base=1449 near=15
+scan 29150000 shard=0 base=1481 near=15
+scan 29200000 shard=0 base=1512 near=15
+scan 29250000 shard=0 base=541 near=15
+scan 29300000 shard=0 base=1578 near=15
+scan 29350000 shard=0 base=1613 near=15
+scan 29400000 shard=0 base=1648 near=15
+scan 29450000 shard=0 base=1684 near=15
+scan 29500000 shard=0 base=1721 near=15
+scan 29550000 shard=0 base=1759 near=15
+scan 29600000 shard=0 base=1799 near=15
+scan 29650000 shard=0 base=1840 near=15
+scan 29700000 shard=0 base=1882 near=15
+scan 29750000 shard=0 base=1925 near=15
+scan 29800000 shard=0 base=667 near=15
+scan 29850000 shard=0 base=699 near=15
+scan 29900000 shard=0 base=764 near=15
+scan 29950000 shard=0 base=833 near=15
+scan 30000000 shard=0 base=905 near=15
+scan 30050000 shard=0 base=983 near=15
+scan 30100000 shard=0 base=1067 near=15
+scan 30150000 shard=0 base=1160 near=15
+scan 30200000 shard=0 base=1265 near=15
+scan 30250000 shard=0 base=1387 near=15
+scan 30300000 shard=0 base=1539 near=15
+scan 30350000 shard=0 base=1781 near=15
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+done shard=0 pairs=30364700
+scan 50000 shard=0 base=2 near=0
+scan 100000 shard=0 base=9 near=0
+scan 150000 shard=0 base=7 near=0
+scan 200000 shard=0 base=9 near=7
+scan 250000 shard=0 base=11 near=21
+scan 300000 shard=0 base=28 near=42
+scan 350000 shard=0 base=33 near=67
+scan 400000 shard=0 base=39 near=99
+scan 450000 shard=0 base=17 near=127
+scan 500000 shard=0 base=49 near=168
+scan 550000 shard=0 base=11 near=209
+scan 600000 shard=0 base=61 near=258
+scan 650000 shard=0 base=23 near=309
+scan 700000 shard=0 base=13 near=369
+scan 750000 shard=0 base=26 near=420
+scan 800000 shard=0 base=83 near=476
+scan 850000 shard=0 base=29 near=529
+scan 900000 shard=0 base=95 near=590
+scan 950000 shard=0 base=101 near=639
+scan 1000000 shard=0 base=107 near=685
+scan 1050000 shard=0 base=113 near=721
+scan 1100000 shard=0 base=119 near=757
+scan 1150000 shard=0 base=124 near=807

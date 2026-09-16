@@ -1,0 +1,6 @@
+cat: /Users/dtaxk/Desktop/research prize/state/beal_3000_7_0_1.pid: No such file or directory
+/Users/dtaxk/Desktop/research prize/watch.sh: line 9: 74573 Terminated: 15          nohup bun "$H/beal.ts" 2000 7 0 1 >> "$R/beal2.log" 2>&1
+/Users/dtaxk/Desktop/research prize/watch.sh: line 10: 69728 Terminated: 15          nohup bun "$H/quick.ts" 1000000 >> "$R/quick.log" 2>&1
+/Users/dtaxk/Desktop/research prize/watch.sh: line 10: 92707 Killed: 9               nohup bun "$H/quick.ts" 1000000 >> "$R/quick.log" 2>&1
+/Users/dtaxk/Desktop/research prize/watch.sh: line 11: 92710 Terminated: 15          nohup bun "$H/riemann_loop.ts" 200 >> "$R/riemann_loop.log" 2>&1
+/Users/dtaxk/Desktop/research prize/watch.sh: line 10: 92764 Terminated: 15          nohup bun "$H/quick.ts" 1000000 >> "$R/quick.log" 2>&1
