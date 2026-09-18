@@ -1,0 +1,18 @@
+powers: 2995
+  i=0/2995 checked=1495 hits=0 0s
+  i=500/2995 checked=832741 hits=8 37s
+  i=1000/2995 checked=1515289 hits=9 68s
+  i=1500/2995 checked=2044910 hits=9 87s
+  i=2000/2995 checked=2422277 hits=9 104s
+  i=2500/2995 checked=2648464 hits=9 117s
+checked pairs: 2722500 |off|=1 hits: 9 by class: {'P': 9}
+  HIT: 3^6 + 10^3 vs 12^3 off 1 class P
+  HIT: 9^3 + 10^3 vs 12^3 off 1 class P
+  HIT: 7^4 + 19^3 vs 21^3 off -1 class P
+  HIT: 71^3 + 138^3 vs 144^3 off -1 class P
+  HIT: 71^3 + 138^3 vs 12^6 off -1 class P
+  HIT: 73^3 + 12^6 vs 150^3 off 1 class P
+  HIT: 73^3 + 144^3 vs 150^3 off 1 class P
+  HIT: 244^3 + 27^6 vs 738^3 off 1 class P
+  HIT: 577^3 + 48^6 vs 2316^3 off 1 class P
+TOTAL 122.45550107955933

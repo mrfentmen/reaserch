@@ -1,0 +1,7 @@
+residue sets: {3: (9, [0, 1, 8]), 4: (16, [0, 1]), 5: (11, [0, 1, 10]), 6: (9, [0, 1]), 7: (29, [0, 1, 12, 17, 28])}
+FLT eliminates 11/125 (x,y,e) combos = 8.8%
+pairs=677450
+mode=none: iroots=3387250/3387250 (100.00%) time=21.5s speedup=0.73x found=[]
+mode=flt: iroots=3089172/3387250 (91.20%) time=18.5s speedup=0.85x found=[]
+mode=res: iroots=1020464/3387250 (30.13%) time=7.7s speedup=2.04x found=[]
+mode=both: iroots=842535/3387250 (24.87%) time=7.3s speedup=2.16x found=[]

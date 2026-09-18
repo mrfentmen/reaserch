@@ -1,0 +1,11 @@
+closed-form basepair counts CONFIRMED: A=11175 B=1770 CTRL=780
+Stage-A coprime base pairs (Euclid recount): 6708 => pairchecks expect 241488
+hits: 7 {'P': 7} unique: 6
+  HIT: 3^6 + 10^3 vs 12^3 off 1 class P
+  HIT: 7^4 + 19^3 vs 21^3 off -1 class P
+  HIT: 9^3 + 10^3 vs 12^3 off 1 class P
+  HIT: 12^6 + 73^3 vs 150^3 off 1 class P
+  HIT: 71^3 + 138^3 vs 144^3 off -1 class P
+  HIT: 71^3 + 138^3 vs 12^6 off -1 class P
+  HIT: 73^3 + 144^3 vs 150^3 off 1 class P
+TOTAL 9.1

@@ -1,0 +1,27 @@
+N=10: total=45 set-equal roundtrip-closedform OK
+N=20: total=190 set-equal roundtrip-closedform OK
+N=50: total=1225 set-equal roundtrip-closedform OK
+N=100: total=4950 set-equal roundtrip-closedform OK
+N=250: total=31125 set-equal roundtrip-closedform OK
+N=500: total=124750 set-equal roundtrip-closedform OK
+N=100 shards=2: contiguous/disjoint/complete OK (first (0, 2475), last (2475, 4950))
+N=100 shards=3: contiguous/disjoint/complete OK (first (0, 1650), last (3300, 4950))
+N=100 shards=7: contiguous/disjoint/complete OK (first (0, 708), last (4243, 4950))
+N=100 shards=16: contiguous/disjoint/complete OK (first (0, 310), last (4641, 4950))
+N=100 shards=31: contiguous/disjoint/complete OK (first (0, 160), last (4791, 4950))
+N=100 shards=100: contiguous/disjoint/complete OK (first (0, 50), last (4901, 4950))
+N=250 shards=7: contiguous/disjoint/complete OK (first (0, 4447), last (26679, 31125))
+N=250 shards=31: contiguous/disjoint/complete OK (first (0, 1005), last (30121, 31125))
+  regression (2,5000) [INTER]: index=4998 roundtrip OK
+  regression (1999,2001) [INTER]: index=9986999 roundtrip OK
+  regression (2000,2001) [INTER]: index=9991000 roundtrip OK
+  regression (2000,3000) [INTER]: index=9991999 roundtrip OK
+  regression (7,6000) [INTER]: index=35978 roundtrip OK
+  regression (2,6000) [INTER]: index=5998 roundtrip OK
+  regression (2000,2000) [INTRA]: index=9990999 roundtrip OK
+  regression (5001,6000) [INTRA]: index=17497499 roundtrip OK
+  regression (1500,4500) [INTER]: index=7868249 roundtrip OK
+  regression (999,5555) [INTER]: index=5489053 roundtrip OK
+N=100: coprime Euclid=2944 Stein=2944 agree; indexer output unfiltered by construction
+N=500: coprime Euclid=75616 Stein=75616 agree; indexer output unfiltered by construction
+R016-001 ALL VALIDATIONS PASS 4.3

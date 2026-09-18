@@ -1,0 +1,6 @@
+exhaustive [0,100000]: mismatches = 0 []
+stratified sample size = 322 mismatches = 0 [] (0.0s)
+sqrt-floor checks: 79998 mismatches = 0 (0.1s)
+wheel lemma spot: all primes in (3,10^6] are +-1 mod 6: True
+2^53-1 oracle: False (mirror agrees)
+total runtime = 2.5s

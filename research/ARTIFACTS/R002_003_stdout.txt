@@ -1,0 +1,19 @@
+unpruned detections=24 (0.4s); pruned detections=24 (0.2s)
+sets identical: True
+planted present in unpruned: True in pruned: True
+  det: 2^3 + 2^3 = 2^4 gcds: 2 2 2
+  det: 2^4 + 2^4 = 2^5 gcds: 2 2 2
+  det: 2^5 + 2^5 = 2^6 gcds: 2 2 2
+  det: 2^5 + 2^5 = 4^3 gcds: 2 2 2
+  det: 3^3 + 6^3 = 3^5 gcds: 3 3 3
+  det: 3^6 + 18^3 = 9^4 gcds: 3 3 9
+  det: 4^4 + 4^4 = 8^3 gcds: 4 4 4
+  det: 7^3 + 7^4 = 14^3 gcds: 7 7 7
+  det: 8^3 + 8^3 = 4^5 gcds: 8 4 4
+  det: 8^5 + 8^5 = 16^4 gcds: 8 8 8
+  det: 8^5 + 32^3 = 16^4 gcds: 8 8 16
+  det: 9^3 + 18^3 = 9^4 gcds: 9 9 9
+  det: 15^4 + 15^5 = 30^4 gcds: 15 15 15
+  det: 16^5 + 16^5 = 128^3 gcds: 16 16 16
+  det: 16^5 + 32^4 = 128^3 gcds: 16 16 32
+SAFETY OK: PRUNED_SET == UNPRUNED_SET and planted valid solutions survive

@@ -1,0 +1,12 @@
+digits(S): total / P-fraction
+  7d: n=1235 P-rate=0.491
+  8d: n=726 P-rate=0.522
+  9d: n=532 P-rate=0.468
+  10d: n=460 P-rate=0.524
+  11d: n=79 P-rate=0.544
+  12d: n=23 P-rate=0.435
+  13d: n=3 P-rate=0.667
+|off|=1 unique triples: 14, in P: 14
+median S: |off|=1 -> 4.019e+08; rest -> 2.243e+07
+null-model P(all 14 unique off1 in P | bin rates) = 7.838e-05
+unique off1 count check: 14

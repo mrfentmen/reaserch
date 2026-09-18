@@ -1,0 +1,11 @@
+== STAGE A (bases 2..150, exps 3..8, prefiltered; must rediscover 71/138/144, 73/144/150, 1729-family) ==
+A: basepairs=11175 pairchecks=241488 off1:P=7 C=0 T=0 (+1:4/-1:3) unique=6 
+== STAGE B (bases 2..60, exps 3..14, prefiltered; exponent-regime extension) ==
+B: basepairs=1770 pairchecks=150048 off1:P=3 C=0 T=0 (+1:2/-1:1) unique=3 
+== STAGE C (adversarial classes, exps 3..12, prefiltered) ==
+C: basepairs=12403 pairchecks=911000 off1:P=3 C=0 T=0 (+1:2/-1:1) unique=3 
+== CONTROL (bases 2..40, exps 3..6, NO prefilter; machinery check on all gcd relations) ==
+CTRL: basepairs=780 pairchecks=12480 off1:P=10 C=0 T=0 (+1:2/-1:8) unique=9 
+root newton-vs-binary disagreements: 0
+CLASS-C COUNTEREXAMPLES: 0
+TOTAL 197.9

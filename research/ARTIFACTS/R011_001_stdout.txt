@@ -1,0 +1,5 @@
+mini-search pairs checked=108288; class-C |off|=1 counterexamples=0
+dataset: |off|=1 lines=19 mean-min-gap=934.3; all lines=3058 mean-min-gap=142.6
+P-|off|1 gap-divisibility signature: 5/19
+moduli <=32 forbidding class-C +-1 residue: NONE (no small-modulus obstruction)
+runtime = 73.7s

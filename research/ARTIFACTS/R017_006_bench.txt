@@ -1,0 +1,2 @@
+BENCH binary: 8.8s over 2261 roots, big-pows=389545
+BENCH newton: 0.4s over 2261 roots, big-pows=32945

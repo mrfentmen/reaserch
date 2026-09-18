@@ -1,0 +1,2 @@
+GATE: exhaustive small + random large + boundaries, exps 3..9
+GATE PASS: 430360 (v,e) cases, zero mismatches, all inequalities hold

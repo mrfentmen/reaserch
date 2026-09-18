@@ -1,0 +1,59 @@
+# Canonical status ledger — 2026-09-18 (protocol pass 2)
+
+One STATUS per claim. Literature and novelty recorded separately.
+Prior combined labels (e.g. "VERIFIED … SUPERSEDED") are withdrawn and
+replaced below. Evidence: files re-read + fresh executions recorded in
+RESEARCH_AUDIT_PROTOCOL_2026-09-18.md; nothing new executed for this
+relabel except where noted.
+
+| # | Claim (narrow) | STATUS | Literature | Novelty | One-line basis |
+|---|---|---|---|---|---|
+| C1 | Beal search covered ALL coprime pairs bases ≤6000, exps 3–7, none found | FALSE | ALREADY KNOWN (no counterexample known to far larger bounds) | KNOWN | Design covers 60,753,825/273,429,100 = 22.2%; 77.8% inter-block missing by construction (`beal.ts:62-68,72-78`) |
+| C2 | Beal intra-block checkpoint counts equal combinatorial totals | REPRODUCIBLE COMPUTATIONAL EVIDENCE | KNOWN (elementary combinatorics) | REPRODUCTION | File contents vs fresh enumeration agree; shows consistency, not execution |
+| C3 | No Beal counterexample, bases ≤100, exps 3–5, full cross coverage | VERIFIED COMPUTATIONALLY | ALREADY KNOWN (covered by published searches to 500k, exps 3–15) | REPRODUCTION | Two independent runs today, 26,496/26,496 pairs, scripts kept (`/tmp/beal_correct_small.py`, `/tmp/beal_small_v2.py`) |
+| C4 | `floorRoot` returns floor(v^{1/e}) | PROVEN | KNOWN (standard binary search) | KNOWN | hi-bound + loop-invariant argument; tests confirm |
+| C5 | Riemann off-line zeros sampled/verified to 1,095,200 | FALSE | ALREADY KNOWN (RH rigorously verified to 3e12; no off-line zero known) | KNOWN | Gate vacuous past ~22.6k, unsound near ~30k (true err 0.227 vs gate 0.192); logs beyond are unvalidated |
+| C6 | Riemann prefix scan (t≲22k, 6 σ, step 0.25) found no SUSPECT | UNVERIFIED | ALREADY KNOWN | KNOWN | Full prefix re-run not witnessed here; logs alone insufficient per LOG INTEGRITY; method is sampling in any case |
+| C7 | Riemann selftest → TRUST-HIGH (3 points) | VERIFIED COMPUTATIONALLY | ALREADY KNOWN (zeros at 14.13/21.02 known) | REPRODUCTION | Re-ran today; passes; mpmath cross-check agrees |
+| C8 | Goldbach+Collatz clean from 1M to 478,260,000 | UNVERIFIED | ALREADY KNOWN (Goldbach to 4e18; Collatz to ~2^68) | KNOWN | Full re-run not performed (~20 h); checkpoint alone proves nothing; no counterevidence found |
+| C9 | Spot 478,260,000–478,262,000 (1001 evens + odds) clean | VERIFIED COMPUTATIONALLY | ALREADY KNOWN | REPRODUCTION | Independent sieve (13.1 s) + exact Collatz re-ran today |
+| C10 | `prime()` correct on integers 0 ≤ n < 2⁵³ | PROVEN | KNOWN | KNOWN | ulp-lattice sqrt-floor lemma + wheel proof (`ARTIFACTS/R007_001_theorem.md`); exhaustive [0,100k] + 322 stratified + 80k sqrt adversarial, 0 mismatches; fractional inputs excluded by contract (exhibited) |
+| C11 | 44 distinct window-local gap records valid | VERIFIED COMPUTATIONALLY | ALREADY KNOWN (gaps tabulated to 4e18/2^64) | REPRODUCTION | Deterministic Miller–Rabin on all 44: endpoints prime, interiors empty, merit formula (0.1 s) |
+| C12 | "57 gap records" (as 57 distinct) | FALSE | ALREADY KNOWN | KNOWN | File has 57 lines, 44 unique; 13 duplicates (restart artifacts) |
+| C13 | Any substantive Erdos-hunter result | UNVERIFIED | UNKNOWN (predicate unknown — source missing, assessment impossible) | not assessable (no predicate; forced label would be false) | MISSING SOURCE; logs only |
+| C14 | Near-miss file as Beal-supporting evidence/progress | FALSE | KNOWN (elementary gcd obstruction) | KNOWN | All 19 \|off\|=1 cases carry a pairwise factor forbidding equality; filter lacks C-coprimality; duplicates (144³=12⁶) |
+| C15 | Lemma L1 (prime-support uniformity) + corollary | PROVEN | KNOWN (elementary divisibility) | KNOWN | Proof in `research/ARTIFACTS/R004_001_lemma.md`; planted + dataset witnesses; compression value, not new math |
+| C16 | Near-miss classification P=1530 T=0 C=1528, 2169 unique, 0 failures, off-1 implies P 19/19 | VERIFIED COMPUTATIONALLY | ALREADY KNOWN (dataset-internal fact) | REPRODUCTION | Python + independent Bun recount agree; `R004_001_counts.json` + `R004_001_stdout.txt`; T empty forced by coprime-(A,B) prefilter |
+| C17 | Erdos/gap hunter sources absent from all searched local avenues (single-commit history, no dangling objects/branches, remote identical, no Desktop/shell/system traces, applet = relaunch.sh only) | REPRODUCIBLE COMPUTATIONAL EVIDENCE | UNKNOWN (predicate unknown) | not assessable (negative search result) | `EXPERIMENTS/R008_001.md` (5-run log forensics: 6385 scans, zero mathematical content); Time Machine/off-machine the only unsearched avenue |
+| C18 | Scope-bounded phenomenon: all |off|=1 over 2,722,500 coprime pairs (bases ≤600, exps 3–7, full cross) are class P (9/9; 0 class C); dataset 14/14 unique; no small-modulus (≤32) obstruction to class-C ±1 | VERIFIED COMPUTATIONALLY | ALREADY KNOWN (scope-internal fact; Pillai/Catalan survey still required) | REPRODUCTION | `EXPERIMENTS/R011_00{1,2,3}.md` + artifacts; gap/size mechanisms falsified; dataset entries rediscovered by independent search |
+| C19 | Universal "|off|=1 ⟹ P" | UNVERIFIED | UNKNOWN (bounded survey: Pillai/Catalan/LRN/Fermat-Catalan/modular none cover three-term coprime ±1, all exps ≥3; non-English not surveyed) | not assessable (no proof, no counterexample) | R011_001–004 (mini 108k + wide 2.7M + highexp 104k: 0 class-C anywhere; mechanisms dead); R011 parked ACTIVE, no R012 |
+| C24 | Higher-exp tranche: 3/3 P, 0 C (bases≤60, exps 3..12, filter-free, 104,200 pairs) + Bun independent reconstruction incl. class-C control | VERIFIED COMPUTATIONALLY | ALREADY KNOWN (scope-internal fact) | REPRODUCTION | EXPERIMENTS/R011_004.md + ARTIFACTS/R011_004_stdout.txt + R011_004_counts.json |
+| C25 | Bounded literature survey finds no theorem covering coprime A^x+B^y−C^z=±1 (all ≥3) | REPRODUCIBLE COMPUTATIONAL EVIDENCE | N/A (this IS the survey record) | N/A (negative search result, bounded) | LITERATURE/pillai_catalan_lrn_adjacency.md; queries on record; shape-mismatch documented per source |
+| C26 | T=∅ for \|off\|=1 unconditionally (p\|A,B,C ⟹ p\|D=±1, impossible) | PROVEN | KNOWN (one-line divisibility) | KNOWN | proof in EXPERIMENTS/R013_001.md (critic section); consistent with CTRL 10P/0T; upgrades prior "forced by prefilter" phrasing |
+| C27 | R013 staged falsification: A 7/6 P, B 3/3, C 3/3, CTRL 10P/0T; 0 Newton-vs-binary disagreements (~3.4M dual evals); planted 4/4; Bun-verified | VERIFIED COMPUTATIONALLY | ALREADY KNOWN (scope-internal fact) | REPRODUCTION | EXPERIMENTS/R013_001.md + R013_002_verify.py + ARTIFACTS/R013_00{1,2}_stdout.txt + R013_002_hits.json |
+| C28 | Full-cross 1000 census: 11 lines/10 keys/7 integer equations, all P, 0 C/T (499,500 base pairs, 303,192 coprime, Bun 11/11) | VERIFIED COMPUTATIONALLY | ALREADY KNOWN (scope-internal fact) | REPRODUCTION | EXPERIMENTS/R015_001.md + ARTIFACTS/R015_001_stdout.txt + R015_001_hits.json |
+| C29 | C20/C21 UNSAFE for |off|=1 census (C21: 2 measured false rejections; C20: residue blind spot proven, e.g. e=4/C-odd/+1) — exact-search pruners answer the wrong question | PROVEN | KNOWN (routine correctness observation) | KNOWN | EXPERIMENTS/R014_002.md + ARTIFACTS/R014_003_equiv_stdout.txt; R002 exact-search results unaffected |
+| C35 | Sublemmas L2a (any e) / L2b (e odd): (A,B)=1 with A^xa+B^xb=C^e∓1 ⟹ gcd(A·B,C∓1)=1; explicitly INSUFFICIENT for U (disjoint predicate) | PROVEN | KNOWN (3-line divisibility) | KNOWN | proof EXPERIMENTS/R017_002_algebraic_attack.md; verified 14/14 (L2a 3/3, L2b 11/11) |
+| C36 | Tower tranche: 0 \|off\|=1 in 45,878 pairs (2^X towers × odds, exps 3..9, filter-free, both directions; null-consistent at height) + Newton gate 430,360 cases + 32× benchmark | VERIFIED COMPUTATIONALLY | ALREADY KNOWN (scope-internal fact) | REPRODUCTION | EXPERIMENTS/R017_005.md (baseline/partial) + R017_006.md + ARTIFACTS/R017_006_gate.txt + R017_006_bench.txt + R017_006_stdout.txt + R017_006_counts.json |
+| C30 | Pair-index formula + coverage identity + shard partition (idx/unrank inverse, contiguous disjoint complete) | PROVEN | KNOWN (elementary combinatorics) | KNOWN | EXPERIMENTS/R016_001_pair_index.md (proofs in code header) |
+| C31 | Index implementation: set-equality + roundtrips + dual-inverse agreement to N=500; shards 2/3/7/16/31/100 recombine; 10-pair inter-block suite; Euclid/Stein coprime agreement | VERIFIED COMPUTATIONALLY | ALREADY KNOWN (scope-internal fact) | REPRODUCTION | EXPERIMENTS/R016_002/003/004.md + ARTIFACTS/R016_001_index.json + R016_002_stdout.txt + Bun spot agreement |
+| C32 | Pipeline separation (file-level, grep-verified) + near-miss brute agreement 2340/2340 + exact-pipeline R002-count match 842535 | VERIFIED COMPUTATIONALLY | ALREADY KNOWN (scope-internal fact) | REPRODUCTION | EXPERIMENTS/R016_006_pipelines.md + R016_006/R016_007 split files + ARTIFACTS/R016_004_stdout.txt |
+| C33 | 1000-regression: near-miss pipeline reproduces R015's 11 lines identically | VERIFIED COMPUTATIONALLY | ALREADY KNOWN (scope-internal fact) | REPRODUCTION | EXPERIMENTS/R016_005_1000_regression.md + ARTIFACTS/R016_005_stdout.txt |
+| C34 | Indexer enumeration ~24× slower than nested loop (8.68 s vs 0.36 s / 2M pairs), negligible vs exact-check cost | REPRODUCIBLE COMPUTATIONAL EVIDENCE | N/A (measurement) | N/A | R016_005 record; no optimization claimed |
+| C20 | RESIDUE prefilter necessity + effectiveness (69.9% check removal, 2.79× net Python; combined 75.1%/2.95×) | PROVEN | KNOWN (standard sieving technique) | KNOWN | rule record `R002_RULE_RESIDUE.md`; safety equality 24=24; Bun table agreement; implementation-survey outcome (not found in bounded survey; hobbyist space incomplete) in differential `R009_001.md`, NOT a novelty upgrade |
+| C21 | FLT-gcd elimination (11/125 combos, 8.8%, ~free) | PROVEN | KNOWN (FLT: Wiles 1994/95; n=4 Fermat; see LITERATURE record) | KNOWN | `R002_RULE_FLT.md`; Bun combo-list agreement; covered by R002_003 safety; implementation-survey outcome in differential `R009_001.md`, NOT a novelty upgrade |
+| C22 | Parity as Beal pair-pruner | FALSE | KNOWN (elementary) | KNOWN | proof of non-eliminability in `R002_REJECTED_parity_valuation.md` (consistent C parity always exists) |
+| C23 | p-adic valuations as coprime-pair pruner (downstream of L1 filter) | FALSE | KNOWN (elementary) | KNOWN | proof in rejection record (v_p(S)=0 forced, consistent with all e); ordering dependency documented |
+
+Notes & corrections to earlier drafts:
+- SUPERSEDED never appears as STATUS above (only under Literature, as
+  ALREADY KNOWN). Earlier combined labels are superseded by this table.
+- C10 UPGRADED 2026-09-18 PARTIAL → PROVEN (contracted integer domain [0,2⁵³); proof + agreement + exhibited fractional exclusion). Outside the contract remains UNVERIFIED by design.
+- C17 (R008): Erdos/gap hunter sources absent from all searched local avenues | REPRODUCIBLE COMPUTATIONAL EVIDENCE | UNKNOWN (predicate unknown) | not assessable | `EXPERIMENTS/R008_001.md` (5-run log forensics, 6385 scans, zero mathematical content; Time Machine/off-machine the only unsearched avenue).
+- C6 is UNVERIFIED rather than HEURISTIC: execution was not witnessed here,
+  which is the binding limitation; the method's sampling nature is recorded
+  as a limitation, not the status.
+- C13's novelty is explicitly left outside the four-value scheme with reason
+  stated, rather than forcing a false label.
+- Smallest-true statements per claim are in
+  RESEARCH_AUDIT_PROTOCOL_2026-09-18.md §B; this file governs STATUS only.

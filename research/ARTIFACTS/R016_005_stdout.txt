@@ -1,0 +1,6 @@
+full census |off|<=1000 lines=68764 (vs old intra-block file: scope differs — see record)
+pipeline lines=11 ref lines=11 sets-equal=True 471s
+missing: []
+extra: []
+classes: {'P': 11}
+1000-REGRESSION OK: domain reproduced, 11 lines identical, inter-block gap gone by construction

@@ -1,0 +1,3 @@
+pipeline hits: 2340 brute hits: 2340 canonical-equal: True
+exact N=300: {'pairs': 44850, 'checks': 842535, 'c20': 2246637, 'c21': 298078} counterexamples: []
+PIPELINES OK 6.2

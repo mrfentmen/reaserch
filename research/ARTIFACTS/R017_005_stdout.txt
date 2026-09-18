@@ -1,0 +1,11 @@
+unique |off|=1 dataset triples: 14
+L2a applicable 3, holds 3; L2b applicable 11, holds 11
+  X=8
+  X=18
+  X=28
+  X=38
+  X=48
+  X=58
+  X=68
+  X=78
+  X=88

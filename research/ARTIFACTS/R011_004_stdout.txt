@@ -1,0 +1,5 @@
+pairs: 104200 |off|=1: 3 {'P': 3}
+  HIT: 3^6 + 10^3 vs 12^3 off 1 class P
+  HIT: 9^3 + 10^3 vs 12^3 off 1 class P
+  HIT: 7^4 + 19^3 vs 21^3 off -1 class P
+TOTAL 6.1

@@ -1,0 +1,17 @@
+  A=250 hits=10 107s
+  A=500 hits=10 196s
+  A=750 hits=11 264s
+  A=1000 hits=11 291s
+basepairs=499500 coprime=303192 off1:P=11 C=0 T=0 (+1:7/-1:4) unique=10
+  HIT: 3^6 + 10^3 vs 12^3 off 1 class P
+  HIT: 7^4 + 19^3 vs 21^3 off -1 class P
+  HIT: 9^3 + 10^3 vs 12^3 off 1 class P
+  HIT: 12^6 + 73^3 vs 150^3 off 1 class P
+  HIT: 27^6 + 244^3 vs 738^3 off 1 class P
+  HIT: 48^6 + 577^3 vs 2316^3 off 1 class P
+  HIT: 71^3 + 138^3 vs 144^3 off -1 class P
+  HIT: 71^3 + 138^3 vs 12^6 off -1 class P
+  HIT: 73^3 + 144^3 vs 150^3 off 1 class P
+  HIT: 244^3 + 729^3 vs 738^3 off 1 class P
+  HIT: 566^3 + 823^3 vs 904^3 off -1 class P
+TOTAL 290.9
