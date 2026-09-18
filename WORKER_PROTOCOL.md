@@ -5,6 +5,7 @@
 2. Read `MASTER_HANDOFF.md` (full orientation; numbers verified 2026-09-18).
 3. Read `research/QUEUE.md` (ticket states) + `research/RESEARCH_STATUS_CANONICAL_2026-09-18.md`
    (claim statuses — exactly one STATUS per claim; novelty/literature separate).
+   Canonical ledger = `research/RESEARCH_STATUS_CANONICAL_2026-09-18.md` ONLY; the root-level duplicate (archived at `research/ARCHIVE/RESEARCH_STATUS_CANONICAL_STALE_ARCHIVE.md`) is historical and must not be used.
 4. Inspect the latest COMPLETED/FAILED snapshot in `research/COMPLETED/` / `research/FAILED/`.
 5. Inspect active work (`research/ACTIVE/`) and recent failures before retrying anything FAILED.
 

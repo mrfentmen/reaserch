@@ -78,7 +78,7 @@ Latest completed: R017 (+R001/R016 workstream). Next: new tickets required befor
 
 ## 10. STRUCTURE / WORKFLOW / EVIDENCE
 - `research/`: QUEUE.md, WORKFLOW.md, ARCHITECTURE.md (pipeline separation law),
-  EXPERIMENTS/ (55 files: records + runnable scripts), ARTIFACTS/ (44: JSON/stdout/proofs),
+  EXPERIMENTS/ (54 files: records + runnable scripts; corrected 2026-09-18, was 55), ARTIFACTS/ (44: JSON/stdout/proofs),
   LITERATURE/ (7 records), ACTIVE/, COMPLETED/, FAILED/ (ticket snapshots).
 - Roles: researcher proposes, critic attacks, verifier reproduces and can veto upgrades.
 - Gates: no status upgrade without evidence pointer (source + execution + validation +

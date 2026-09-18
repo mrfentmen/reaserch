@@ -1,3 +1,13 @@
+# ARCHIVE NOTICE — STALE DUPLICATE (do not use as evidence)
+
+> SUPERSEDED BY: research/RESEARCH_STATUS_CANONICAL_2026-09-18.md.
+> Reason: stale duplicate — missing C15–C36, outdated statuses (e.g. C10 listed PARTIAL here; upgraded to PROVEN in the canonical copy). Do not use.
+
+Archived 2026-09-18 as M001 ledger canonicalization. This file was formerly the
+root-level `RESEARCH_STATUS_CANONICAL_2026-09-18.md`. History preserved via `git mv`.
+
+---
+
 # Canonical status ledger — 2026-09-18 (protocol pass 2)
 
 One STATUS per claim. Literature and novelty recorded separately.
