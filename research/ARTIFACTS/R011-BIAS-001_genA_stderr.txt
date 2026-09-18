@@ -1,0 +1,1 @@
+genA done: draws=300000 raw=13 dedup=8 P/C/T=8/0/0 t=2.8s

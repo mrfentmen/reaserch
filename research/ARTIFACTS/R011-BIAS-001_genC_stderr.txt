@@ -1,0 +1,1 @@
+genC done: sums=261530 raw=13 dedup=13 P/C/T=13/0/0 t=3.2s

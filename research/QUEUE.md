@@ -304,6 +304,89 @@ Canonical STATUS per claim (PROVEN / VERIFIED COMPUTATIONALLY / REPRODUCIBLE COM
 
 ---
 
+## R011-BIAS-001: INDEPENDENT-SAMPLING BIAS PROBE (|off|=1 P-dominance)
+
+- ID: R011-BIAS-001
+- AUTHORIZATION: research director, 2026-09-18 — authorized FIRST, before any other new research.
+- QUESTION: Does the |off|=1 P-dominance (claim C19 UNVERIFIED) survive when the sampling process
+  changes — real mathematics, or artifact of the generator family (coprime-(A,B) prefilter,
+  nearest-power rounding, base-pair enumeration order)?
+- KNOWN: hunter forces gcd(A,B)=1 (proven: forces T=∅ only, does NOT force P over C — R011 Step 4);
+  hunter logs single nearest power (ties up); base-pair index order, intra-block, S>10^6, ratio<999.
+  R013 no-prefilter base-major control: 10P/0T; C26 (T=∅ for |off|=1) proved arithmetically.
+  R015 full-cross 2..1000: 7 equations, all P, 0 C/T. C19 stays UNVERIFIED no matter the outcome.
+- UNKNOWN: P/C/T split among |off|=1 hits under different enumeration (random / value-sorted /
+  shuffled) with ALL hunter filters removed.
+- HYPOTHESIS: neutral (probe). Artifact reading predicts class-C hits under independent sampling;
+  mathematical reading predicts P-dominance survives.
+- FALSIFIER: verified class-C ±1 from any generator (kills the "survives independent sampling"
+  reading, not universality — C19 already UNVERIFIED); OR all generators yield zero hits →
+  probe INCONCLUSIVE/underpowered (recorded honestly, falsifies nothing).
+- METHOD: three NEW stdlib-only scripts, independent of the existing pipeline (NOT "generate A,B,
+  find nearest C, classify"): GenA = 300,000 random (A,B) draws, seed 20260918, with replacement,
+  no prefilter; GenB = value-sorted census of all distinct S=A^x+B^y (bases ≤150, exps 3–7),
+  ascending; GenC = same distinct-S universe shuffled, seed 20260919 (B vs C differ ONLY in
+  traversal order). Nearest e-th power (e 3..7) via bisect on precomputed tables + defensive ±2
+  guard (mathematically vacuous — any |off|=1 hit is at the UNIQUE nearest power — bug tripwire
+  only); both signs ±1; post-hoc naming-invariant P/C/T classification; dedup on (S,C,e).
+  Per-generator: total |off|=1 hits (raw + deduped), P/C/T, seeds, commands, runtimes, raw outputs.
+- SUCCESS CONDITION: per-generator P/C/T tables from executed code + honest verdict on survival of
+  P-dominance under independent sampling (underpowered outcomes count as verdicts, not failures
+  of honesty).
+- FAILURE CONDITION: zero hits from all generators → INCONCLUSIVE (weak result, recorded; C19 unmoved).
+- EXPECTED COST: Low (<2 min compute).
+- EXPECTED INFORMATION VALUE: MEDIUM (attacks the sampling process, not the phenomenon; cannot
+  prove/disprove C19 by construction).
+- LITERATURE CHECK: N/A (methods probe).
+- DEPENDENCIES: none.
+- STATUS: UNDER_REVIEW (2026-09-18; researcher + critic passes complete; verifier pass left for director).
+- NEXT ACTION: verifier pass (independent reimplementation or director review). No ledger status change
+  in any case — C19 stays UNVERIFIED by rule.
+- EVIDENCE: `research/ACTIVE/R011-BIAS-001/TICKET.md`; scripts
+  `research/EXPERIMENTS/R011-BIAS-001_gen{A,B,C}.py` (sha256 9290967e…/2c2dfd26…/71131642…);
+  `research/EXPERIMENTS/R011-BIAS-001.md` (researcher pass);
+  `research/ACTIVE/R011-BIAS-001/CRITIC.md` (critic pass);
+  raw outputs `research/ARTIFACTS/R011-BIAS-001_gen{A,B,C}_{stdout,stderr}.txt`.
+- RESULT (≤150 box, exps 3–7, both signs, no hunter filters): GenA 300k draws → 7 uniq eq;
+  GenB value-sorted census (261,530 distinct sums) → 11 uniq eq; GenC shuffled → same 11.
+  ALL P, 0 C, 0 T under both dedup conventions. 8/13 (S,C,e)-hits have gcd(A,B)>1 and 7/13 have
+  S≤10⁶ — both hunter-excluded regions — every one still P. P-dominance SURVIVED independent
+  sampling; C19 unmoved (finite scope).
+- R018 (folded in): `research/EXPERIMENTS/R018_001_local.py` is script-only, never executed, no
+  artifacts; it exhaustively classifies RESIDUE triples (proof certificates), sampling no integer
+  distribution; all INST moduli (2,7,9,11,16,17) ≤32 ⊂ C18 coverage → SUPERSEDED by R011/C18
+  (presentation-only delta: mechanized forbidden-pattern certificates). Not run (triage forbids
+  ad-hoc execution). A proper R018 ticket is justified ONLY IF extended beyond C18 coverage
+  (moduli/exponents R011_00{1,2,3} did not cover) — future candidate, not executed here.
+
+---
+
+## R011-LIT-002: BOUNDED LITERATURE CLOSURE (R011 adjacency)
+
+- ID: R011-LIT-002
+- QUESTION: Bounded adjacency survey for the R011 phenomenon: S-unit equation, Lebesgue–Nagell,
+  Ramanujan–Nagell, Mihăilescu/Catalan, Fermat–Catalan — does any cover three-term coprime ±1
+  with all exps ≥3? Hard stop after the shortlist; record adjacency only, no universality claim.
+- KNOWN: R011's 2026-09-18 survey found no covering theorem (Pillai/Catalan/LRN/Fermat-Catalan/
+  modular — see LITERATURE/pillai_catalan_lrn_adjacency.md); novelty field UNKNOWN (non-English
+  not surveyed).
+- UNKNOWN: whether the five named areas add anything beyond that survey.
+- HYPOTHESIS: neutral — closure, not discovery.
+- FALSIFIER: a covering theorem found (would reshape R011, not close it).
+- METHOD: shortlist of exactly the five named areas; one record each in LITERATURE/ (no fabricated
+  entries); adjacency verdict per area (covers / adjacent / irrelevant); HARD STOP after five.
+- SUCCESS CONDITION: five records + verdicts, or covering theorem (escalate to director).
+- FAILURE CONDITION: shortlist exhausted with no new adjacency (honest close).
+- EXPECTED COST: Low (reading + writing).
+- EXPECTED INFORMATION VALUE: LOW-MEDIUM (closes the literature flank of R011).
+- LITERATURE CHECK: this IS the check.
+- DEPENDENCIES: R011-BIAS-001 (runs after; do not interleave compute).
+- STATUS: QUEUED (behind R011-BIAS-001).
+- NEXT ACTION: start after R011-BIAS-001 reaches UNDER_REVIEW.
+- EVIDENCE: none yet.
+
+---
+
 ## Priority (operational, not mathematical importance)
 
-1. R004 DONE → 2. R008 FAILED (documented) → 3. R007 DONE → 4. R002 DONE → 5. R009/R005 DONE → 6. R001 DONE (R016 workstream: pair index + pipelines + 1000-regression) → 7. R011 ACTIVE-parked (open phenomenon) → 8. R013 FAILED-honorable → 9. R014 FAILED-premise-flaw → 10. R015 DONE → 11. R017 DONE (option-8 verdict; L2a/L2b; tower 0/45878) → 12. next: R003/R006 (new tickets before compute) → 13. R010 (process).
+1. R004 DONE → 2. R008 FAILED (documented) → 3. R007 DONE → 4. R002 DONE → 5. R009/R005 DONE → 6. R001 DONE (R016 workstream: pair index + pipelines + 1000-regression) → 7. R011 ACTIVE-parked (open phenomenon) → 8. R013 FAILED-honorable → 9. R014 FAILED-premise-flaw → 10. R015 DONE → 11. R017 DONE (option-8 verdict; L2a/L2b; tower 0/45878) → 12. R011-BIAS-001 UNDER_REVIEW (director-authorized first: independent-sampling bias probe; P-dominance survived, 0 C) → 13. R011-LIT-002 QUEUED (bounded lit closure, behind BIAS-001) → 14. next: R003/R006 (new tickets before compute) → 15. R010 (process).
